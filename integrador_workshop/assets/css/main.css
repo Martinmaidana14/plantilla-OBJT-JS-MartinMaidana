@@ -1,0 +1,183 @@
+:root {
+    --gris: #b84444ea;
+    --fondo: #4c4747;
+}
+
+body {
+    background-color: var(--fondo);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    width: 100%;
+    height: 80px;    
+}
+
+.header-buscador-marco {
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    width: 100%;
+    border-radius: 6px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;  
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+.header-buscador-marco input{
+    width: 90%;
+    height: 30px;
+    border: 0;
+    color: var(--gris);
+}
+
+.header-buscador-marco input:focus{
+    border: 0;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+}
+
+/*encabezado main*/
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Clases temporales para maquetación */
+.h1200 {
+    height: 1200px;
+}
+.h200 {
+    height: 200px;
+}
+.h60 {
+    height: 60px;
+}
+
+/* Producto */
+
+.w-20 {
+    width: 20%;
+}
+.w-60 {
+    width: 60%;
+}
+.w-80 {
+    width: 80%;
+}
+.h-150 {
+    height: 150px;
+}
+
+
+.producto h3 {
+    font-size: 1.5rem;
+    color: #274092;
+}
+
+.precio {
+    font-size: 2rem;
+}
+
+/* Carrito */
+#iconoCarrito {
+    font-size: 2rem;
+}
+#badgeCarrito {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    font-size: 0.7rem;
+    background-color: #000 !important;
+}
+
+.offcanvas {
+    margin-top: 95px;
+    border-radius: 10px 0 0 0;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+/* Footer */
+footer {
+    background-color: #733635;
+    margin-top: 20px;
+    padding: 0;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-redes {
+    display: flex;
+    color: whitesmoke;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /*Estilos para los enlaces*/
+}
+
+footer .nav-redes a {
+    color: white; /* Cambia el color normal del enlace aquí */
+    text-decoration: none; /* Quita la subrayado por defecto de los enlaces */
+}
+
+footer .nav-redes a:visited {
+    color: green; /* Cambia el color después de ser visitado */
+}
+
+footer .nav-redes a:active {
+    color: red; /* Cambia el color cuando se hace clic en el enlace */
+}
+
+footer .nav-redes a:hover {
+    color: orange; /* Cambia el color cuando el mouse está sobre el enlace */
+}
+
+footer .info {
+    display: flex;
+    color: whitesmoke;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+footer .copy {
+    display: flex;
+    color: whitesmoke;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.logoTipo {
+    background: rgb(182,0,0);
+    background: linear-gradient(90deg, rgba(182,0,0,1) 8%, rgba(36,0,0,1) 20%, rgba(121,9,9,1) 40%, rgba(121,9,9,1) 60%, rgba(36,0,0,1) 80%, rgba(182,0,0,1) 92%);
+}
